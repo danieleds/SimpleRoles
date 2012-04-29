@@ -72,7 +72,7 @@ if(isset($_POST['update'])) {
 
 `$session_current_user` is an instance of some User model, representing the current logged in user. In the Ability class, we called `$user->getRoles()` to get an array of enabled roles for the current user.
 
-Now, if the user is not authorize to complete the action, an exception will be raised. You can override this behavior by adding a special function called *unauthorized* to your Ability class, for example:
+Now, if the user is not authorized to complete the action, an exception will be raised. You can override this behavior by adding a special function called *unauthorized* to your Ability class, for example:
 
 ```php
 <?php
