@@ -1,6 +1,6 @@
 <?php
 
-  require_once "SimpleRoles.php";
+  require_once "../src/SimpleRoles.php";
 
   /* Place this class in a separate file */
 
