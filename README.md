@@ -76,7 +76,6 @@ Now, if the user is not authorize to complete the action, an exception will be r
 
 ```php
 <?php
-
 protected function unauthorized($action) {
   echo "You are not authorized to view this page\n";
   // ... Redirect to home page
