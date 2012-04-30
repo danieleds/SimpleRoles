@@ -73,7 +73,7 @@
     }
 
     protected function unauthorized($action) {
-      throw new Exception();
+      throw new Exception("Not authorized");
     }
 
   }
