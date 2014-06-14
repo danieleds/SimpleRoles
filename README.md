@@ -11,7 +11,7 @@ class Ability extends SimpleRoles {
     function __construct($user) {
         parent::__construct();
 
-        // You should define here your rules
+        // Here is where you'll define your rules
     }
 
 }
